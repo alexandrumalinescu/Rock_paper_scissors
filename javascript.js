@@ -2,7 +2,6 @@ let myArray = ["rock", "paper", "scissors"];
 
 function pick(arr) {
   const idx = Math.floor(Math.random() * arr.length);
-  // console.log(arr[idx]);
   return arr[idx]; 
 }
 let computer = pick(myArray);
